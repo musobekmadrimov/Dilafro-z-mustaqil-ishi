@@ -1,0 +1,171 @@
+.card-custom {
+    overflow: hidden;
+    min-height: 350px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+    height: 200px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: inherit;
+}
+
+/* First border-left-width setting is a fallback */
+.card-custom-img::after {
+    position: absolute;
+    content: '';
+    top: 161px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top-width: 40px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 545px;
+    border-left-width: calc(575px - 5vw);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: inherit;
+}
+
+.card-custom-avatar img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+    position: absolute;
+    top: 50px;
+    left: 1.25rem;
+    width: 150px;
+    height: 150px;
+}
+
+.card-body {
+    max-height: 150px;
+    min-height: 150px;
+    overflow-y: scroll;
+}
+
+/* Scrollbar styles */
+.card-body::-webkit-scrollbar {
+    width: 5px;
+}
+
+.card-body::-webkit-scrollbar-thumb {
+    background-color: #B20600;
+    border-radius: 5px;
+    /* border-right: 1px solid #fff; */
+}
+
+.card-body::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* Sidebar Styles */
+
+.offcanvas {
+    background-color: #0b132b;
+}
+
+.menu {
+    color: rgba(255, 255, 255, 0.795);
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: right;
+}
+
+.menu li {
+    list-style: none;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.63);
+    font-weight: 800;
+    transition: 0.4s ease;
+    margin-right: 30px;
+}
+
+.menu li a.active {
+    color: #fff;
+}
+
+.menu li a:hover {
+    color: #fff;
+}
+
+.menu li::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+.createdBy a {
+    transition: all .3s linear;
+}
+
+.createdBy a:hover {
+    text-decoration: underline wavy #B20600;
+}
+
+.createdBy p.lead {
+    color: #fff;
+}
+
+/* About author styles */
+
+.about-author p strong {
+    font-size: 25px;
+}
+
+.about-author p {
+    font-size: 30px;
+}
+
+#footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+}
+
+#footer p {
+    font-size: 1rem;
+}
+
+#footer a{
+    transition: all .3s linear;
+}
+
+#footer p.lead{
+    color: #fff;
+}
+
+#footer a:hover{
+    text-decoration: underline wavy #B20600;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #B20600;
+    border-radius: 5px;
+    /* border-right: 1px solid #fff; */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #fff;
+  }

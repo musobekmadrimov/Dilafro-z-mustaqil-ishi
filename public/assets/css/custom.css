@@ -1,0 +1,6 @@
+/* your styles go here */
+
+.sub-active{
+    font-weight: 900;
+    transform: translateX(10px);
+}
