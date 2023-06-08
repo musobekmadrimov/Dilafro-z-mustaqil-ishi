@@ -45,7 +45,7 @@
                     </ul>
                     <div class="row position-absolute bottom-0 createdBy" style="right: 15px">
                         <div class="col-md-12">
-                            <a href="http://a1tech.uz">
+                            <a href="http://musobekmadrimov.netlify.app">
                                 <p class="lead">created by Dilafro'z Jo'rabekova</p>
                             </a>
                         </div>
